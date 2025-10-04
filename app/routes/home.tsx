@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Resumind" },
+    { title: "NextHire" },
     { name: "description", content: "Smart feedback for your dream job!" },
   ];
 }
@@ -17,7 +17,6 @@ export default function Home() {
       <section className="main-section">
         <div className="page-heading py-16">
           <h1>Track Your Applications & Resume Ratings</h1>
-          <h2>No resumes found. Upload your first resume to get feedback.</h2>
         </div>
 
         {/* Static loading image (not tied to async fetch anymore) */}
